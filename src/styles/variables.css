@@ -1,0 +1,116 @@
+:root {
+  /* BabyBloom Premium Palette */
+
+  /* 1. Core Brand Colors */
+  --color-primary: #4A90E2;
+  /* Soft Royal Blue - Trustworthy */
+  --color-primary-dark: #357ABD;
+  /* Darker Blue - Interactions */
+  --color-primary-light: #EBF5FF;
+  /* Pale Blue - Backgrounds */
+  --color-primary-subtle: #D1E9FF;
+  /* Subtle Blue - Borders/Accents */
+
+  --color-secondary: #F8FAFC;
+  /* Warm Neutral / Off-White */
+  --color-secondary-dark: #E2E8F0;
+  /* Slate 200 - Borders */
+
+  --color-accent: #2563EB;
+  /* Vivid Blue - Call to Actions */
+  --color-accent-hover: #1D4ED8;
+
+  /* 2. Text Colors */
+  --color-text-main: #1E293B;
+  /* Slate 800 - Deep, readable text */
+  --color-text-muted: #64748B;
+  /* Slate 500 - Secondary text */
+  --color-text-light: #94A3B8;
+  /* Slate 400 - Placeholders/Disabled */
+  --color-text-inverted: #FFFFFF;
+  /* White text on dark backgrounds */
+  --color-text-on-primary: #FFFFFF;
+
+  /* 3. Status Colors (Semantic) */
+  /* Success - Stock Available, Completed */
+  --color-success: #10B981;
+  --color-success-bg: #ECFDF5;
+  --color-success-text: #065F46;
+
+  /* Warning - Low Stock, Pending Review */
+  --color-warning: #F59E0B;
+  --color-warning-bg: #FFFBEB;
+  --color-warning-text: #92400E;
+
+  /* Error - Out of Stock, Failed, Critical */
+  --color-error: #EF4444;
+  --color-error-bg: #FEF2F2;
+  --color-error-text: #B91C1C;
+
+  /* Info - Processing, In Transit */
+  --color-info: #3B82F6;
+  --color-info-bg: #EFF6FF;
+  --color-info-text: #1E40AF;
+
+  /* 4. UI Surfaces & Borders */
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F8FAFC;
+  /* Slight gray for cards/sections */
+  --color-surface-hover: #F1F5F9;
+  --color-surface-translucent: rgba(255, 255, 255, 0.85);
+
+  --color-border: #E2E8F0;
+  --color-border-hover: #CBD5E1;
+  --color-border-focus: #4A90E2;
+
+  /* 5. Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', system-ui, -apple-system, sans-serif;
+
+  /* 6. Spacing Scale (Rem-based) */
+  --space-2xs: 0.25rem;
+  /* 4px */
+  --space-xs: 0.5rem;
+  /* 8px */
+  --space-sm: 0.75rem;
+  /* 12px */
+  --space-md: 1rem;
+  /* 16px */
+  --space-lg: 1.5rem;
+  /* 24px */
+  --space-xl: 2rem;
+  /* 32px */
+  --space-2xl: 3rem;
+  /* 48px */
+  --space-3xl: 4rem;
+  /* 64px */
+
+  /* 7. Shadows & Elevation */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  /* Cards default */
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  /* Hover */
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025);
+  /* Modals/Dropdowns */
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
+  --shadow-glow: 0 0 15px rgba(74, 144, 226, 0.15);
+  /* Focus States */
+  --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+
+  /* 8. Radii */
+  --radius-sm: 0.375rem;
+  /* 6px */
+  --radius-md: 0.5rem;
+  /* 8px */
+  --radius-lg: 0.75rem;
+  /* 12px */
+  --radius-xl: 1rem;
+  /* 16px */
+  --radius-full: 9999px;
+
+  /* 9. Transitions */
+  --transition-fast: 150ms ease-in-out;
+  --transition-base: 200ms ease-in-out;
+  --transition-smooth: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
