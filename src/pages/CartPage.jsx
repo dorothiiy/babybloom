@@ -98,7 +98,7 @@ const CartPage = () => {
             }
 
             const options = {
-                key: "rzp_test_YOUR_KEY_ID_HERE", // Enter the Key ID generated from the Dashboard
+                key: "rzp_test_SGhBX2DrIPs6wQ", // Razorpay Key ID provided by user
                 amount: orderData.amount,
                 currency: orderData.currency,
                 name: "BabyBloom Wholesale",
