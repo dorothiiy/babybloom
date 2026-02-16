@@ -73,10 +73,7 @@ const CartPage = () => {
 
         // Create Order on Backend
         try {
-            // Use relative path for production compatibility
-            // In dev, Vite proxy or localhost fallback handles this
-            const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001';
-            const result = await fetch(`${apiUrl}/api/create-order`, {
+            const result = await fetch('/api/create-order', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -111,7 +108,7 @@ const CartPage = () => {
                 handler: async function (response) {
                     // Verify Payment with Backup
                     try {
-                        const verifyRes = await fetch(`${apiUrl}/api/verify-payment`, {
+                        const verifyRes = await fetch('/api/verify-payment', {
                             method: 'POST',
                             headers: {
                                 'Content-Type': 'application/json',
